@@ -27,10 +27,10 @@ class student
 int main()
 {
 	student *s1;	//pointer of a student object data type
-	s1=new student;		
+	s1=new student;		//It will call the constructor
 	cout<<"Hiii!\n";
-	s1->get();
+	s1->get();		//calling the get() fun. with pointer s1
 	s1->show();
-		delete s1;
+		delete s1;	//deleting the student object
 		return 0;
 }
